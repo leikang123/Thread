@@ -1,0 +1,6 @@
+<config>
+	<item1>
+		<key>zkAddress</key>
+		<value>127.0.0.1:2181</value>
+	</item1>
+</config>

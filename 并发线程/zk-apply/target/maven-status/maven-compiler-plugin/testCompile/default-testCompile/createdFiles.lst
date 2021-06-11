@@ -1,0 +1,15 @@
+edu\dongnao\courseware\test\zkclient\ZkClientClusterTest.class
+edu\dongnao\courseware\test\originalclient\DistributeConcurrentTest.class
+edu\dongnao\courseware\test\zkclient\ZkClientClusterSingleNodeTest$1.class
+edu\dongnao\courseware\test\zkclient\ConfigureTest.class
+edu\dongnao\courseware\test\originalclient\DistributeConcurrentTest$1$1.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueConsumerTest$1$1.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueConsumerTest.class
+edu\dongnao\courseware\test\zkclient\ZkClientClusterSingleNodeTest.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueProducerTest$1$1.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueProducerTest.class
+edu\dongnao\courseware\test\zkclient\ZkClientClusterTest$1.class
+edu\dongnao\courseware\test\originalclient\DistributeConcurrentTest$1.class
+edu\dongnao\courseware\test\zkclient\ConfigureTest$1.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueConsumerTest$1.class
+edu\dongnao\courseware\test\zkclient\DistributeQueueProducerTest$1.class
