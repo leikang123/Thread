@@ -2,6 +2,8 @@ package com.lk.zk;
 
 import java.nio.file.WatchEvent;
 
+
+// 事物的监控
 public class Master implements Watcher{
 	Zookeeper zk;
 	String hostPort;
