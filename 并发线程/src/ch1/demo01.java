@@ -21,7 +21,7 @@ public class demo01 {
 	 * 结果是200000
 	 */
 	public static AtomicInteger num = new AtomicInteger(0);
-	
+	// 主方法
 	public static void main(String[] args) throws InterruptedException {
 		for(int i=0;i<100;i++) {
 		    // 创建线程
