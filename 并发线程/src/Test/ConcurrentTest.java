@@ -1,5 +1,6 @@
 package Test;
 
+// 并发线程的测试demo
 public class ConcurrentTest {
 	
 	 private static final  long count = 100000;
@@ -10,8 +11,11 @@ public class ConcurrentTest {
 		// 并发方法
 		concurrent();
 	}
+	// 并发线程静态方法
 	private static void concurrent() throws InterruptedException {
+		// 开始时间
 		 long start = System.currentTimeMillis();
+		// 线程的创建
 		 Thread t = new Thread(new Runnable() {
 			
 			@Override
@@ -23,17 +27,21 @@ public class ConcurrentTest {
 				
 			}
 		});
+		// 线程开始运行
 		 t.start();
 		 int b= 0;
 		 for(long i =0;i < count;i++) {
 			 b --;
+		 }
+		// 线程 让步
+		 }
 		 }
 		t.join();
 		long time  = System.currentTimeMillis() - start;
 		System.out.println("Concurrent:"+time+"ms,b="+b);
 		 }
 		
-	
+	// 串行线程方法
 	private static void serial() {
 		long start  = System.currentTimeMillis();
 		int a =0;
