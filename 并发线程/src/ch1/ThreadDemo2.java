@@ -26,6 +26,7 @@ public class ThreadDemo2 implements Runnable{
 			
 		}
 	}
+	
 	public static void main(String[] args) {
 		// 创建对象
 		ThreadDemo2 demo = new ThreadDemo2();
