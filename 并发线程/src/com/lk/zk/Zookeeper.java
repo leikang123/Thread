@@ -1,5 +1,7 @@
 package com.lk.zk;
 
+
+// zk类的demo
 public class Zookeeper {
 	// zk建立会话属性
 	// 主机名与服务器端口连接
