@@ -51,7 +51,8 @@ public class ConcurrentTest {
 		int b= 0;
 		for(int i=0;i< count;i++) {
 			b--;
-		}
+		
+			
 		long time = System.currentTimeMillis() - start ;
 		System.out.println("serial:"+time+"ms,b="+b+",a=+a");
 	}
