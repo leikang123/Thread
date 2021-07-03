@@ -1,5 +1,7 @@
 package 生产者与消费者共享队列2;
 
+
+// 汽车生产者类
 public class CarProducter implements Runnable {
     //共享缓存区
     private CarStock carPool;
