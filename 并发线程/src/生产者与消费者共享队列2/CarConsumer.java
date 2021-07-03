@@ -8,6 +8,7 @@ public class CarConsumer implements Runnable {
     public CarConsumer(CarStock carPool) {
         this.carPool = carPool;
     }
+    
 
     @Override
     public void run() {
