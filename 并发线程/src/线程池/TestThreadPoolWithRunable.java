@@ -3,6 +3,7 @@ package 线程池;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// 线程池的创建
 public class TestThreadPoolWithRunable {
     public static void main(String[] args) {
     	// 创建一个线程池，用于存放线程的
