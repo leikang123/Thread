@@ -6,6 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+// 线程池类
 public class TestThreadPoolWithCallable {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
     	// 创建一个线程池，规定数量的线程池
