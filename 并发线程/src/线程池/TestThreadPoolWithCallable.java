@@ -11,6 +11,7 @@ public class TestThreadPoolWithCallable {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
     	// 创建一个线程池，规定数量的线程池
         ExecutorService pool = Executors.newFixedThreadPool(4);
+        //
         ArrayList<Future<Integer>> futureList = new ArrayList<Future<Integer>>();
         for (int i = 0; i < 6; i++) {
             Future<Integer> result = pool.submit(() ->{
