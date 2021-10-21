@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Vector;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
-
+// demo
 public class demo1 {
 	public static void main(String[] args) {
 		// 并发容易使用这个会报错 java.util.ConcurrentModificationException
